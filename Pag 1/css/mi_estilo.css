@@ -38,16 +38,19 @@
 
 .Texto {
     width: 85%;
+    cursor: text;
 }
 
 .mic {
     width: 5%;
     padding: 10px;
+    cursor: pointer;
 }
 
 .cam {
     width: 10%;
     padding: auto;
+    cursor: pointer;
 }
 
 .contenedor:hover{
