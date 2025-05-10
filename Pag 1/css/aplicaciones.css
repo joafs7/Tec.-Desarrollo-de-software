@@ -1,0 +1,27 @@
+.contenedor{
+    width: 380px;
+    height: 380px;
+    font-family: Arial;
+    font-size: 10px;
+    text-align: center;
+    border: 1px solid #ebecec;
+    box-shadow: 0px 0px 6px #ebecec;
+    border-radius: 5px;
+    overflow-y: scroll;
+}
+
+.imagenes_apps{
+    width: 40px;
+    height: 40px;
+}
+
+ul{
+    margin-left: -30px;
+    margin-top: 10px;
+}
+
+li{
+    width: 100px;
+    display: inline-block;
+    margin-top: 40px;
+}
