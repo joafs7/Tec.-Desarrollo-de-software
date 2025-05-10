@@ -5,6 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/mi_estilo.css">
+
+    <script>
+        function mostrar()
+        {
+          const ventana = document.getElementById("ventana")
+        }
+    </script>
 </head>
 <body>
     
@@ -14,7 +21,7 @@
                     <tr>
                         <td class="animacion">Gmail</td>
                         <td class="animacion">Imagenes</td>
-                        <td class="animacion"><img src="imagenes/app.png" alt="apps"></td>
+                        <td class="animacion" id="ventana" onclick="mostrar()"><img src="imagenes/app.png" alt="apps"></td>
                         <td class="animacionfoto"><img src="imagenes/Yo.JPG" alt="" ></td>
                     </tr>
                 </table>
