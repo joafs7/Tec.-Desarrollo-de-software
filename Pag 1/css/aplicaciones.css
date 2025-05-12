@@ -8,11 +8,18 @@
     box-shadow: 0px 0px 6px #ebecec;
     border-radius: 5px;
     overflow-y: scroll;
+    border-radius: 10px;
 }
 
 .imagenes_apps{
     width: 40px;
     height: 40px;
+}
+
+.division{
+    border: 1px solid rgba(0, 0, 0, 0.825);
+    width: 380px;
+    margin-top: 30px;
 }
 
 ul{
