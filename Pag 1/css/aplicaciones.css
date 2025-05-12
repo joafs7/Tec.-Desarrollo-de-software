@@ -25,3 +25,9 @@ li{
     display: inline-block;
     margin-top: 40px;
 }
+
+.imagenes_apps:hover{
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
