@@ -3,13 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Google</title>
     <link rel="stylesheet" href="css/mi_estilo.css">
 
     <script>
         function mostrar()
         {
-          const ventana = document.getElementById("ventana")
+          document.getElementById("ventana").style.visibility = "visible";
+        }
+
+           function cerrar()
+        {
+          document.getElementById("ventana").style.visibility = "hidden";
         }
     </script>
 </head>
@@ -21,7 +26,7 @@
                     <tr>
                         <td class="animacion">Gmail</td>
                         <td class="animacion">Imagenes</td>
-                        <td class="animacion" id="ventana" onclick="mostrar()"><img src="imagenes/app.png" alt="apps"></td>
+                        <td class="animacion"><img src="imagenes/app.png" alt="apps"  onclick="mostrar()"></td>
                         <td class="animacionfoto"><img src="imagenes/Yo.JPG" alt="" ></td>
                     </tr>
                 </table>
@@ -71,8 +76,9 @@
         </div>
     </div>
 
-    <div style="position: fixed; width: 100%; height: 1700px; visibility: hidden; ">
+    <div style="position: fixed; top:0px; width: 100%; height: 1700px; visibility: hidden;" id="ventana" onclick="cerrar()" >
         <iframe src="aplicaciones.html" frameborder="0" ></iframe>
     </div>
+
 </body>
 </html>

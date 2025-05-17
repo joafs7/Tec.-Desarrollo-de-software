@@ -186,3 +186,14 @@ a:hover{
         width: 100%;
     }
 }
+
+iframe{
+    float: right;
+    margin-top: 65px;
+    margin-right: 45px;
+    width: 360px;
+    height: 360px;
+    border-radius: 25px;
+    background-color: white;
+
+}
